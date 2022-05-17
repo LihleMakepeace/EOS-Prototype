@@ -1,7 +1,7 @@
 # **Argos Electro-Optical System**
 
 ## About The Project
-![System-diagram](System-diagram.png)
+![System-diagram](file:///C:/Users/Lihle/Desktop/MyCourses/Arduino/EOS-prototype/System-diagram.PNG)
 
 
 The project is about the design and built of a EOS prototype that use the following components:
