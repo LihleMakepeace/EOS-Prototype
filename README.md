@@ -1,13 +1,8 @@
 # **Argos Electro-Optical System**
 
 ## About The Project
-<<<<<<< HEAD
+
 ![System-diagram](./System-diagram.jpg)
-
-=======
-![System-diagram](https://drive.google.com/file/d/1mqHqDTRHfqK8LDhyctj33NyWpZGG2ONy/view?usp=sharing)
->>>>>>> 6d6860e5eea58442b7e0f1e6f607c6be4c27056c
-
 
 The project is about the design and built of a EOS prototype that use the following components:
 1. Arduino Micros 
