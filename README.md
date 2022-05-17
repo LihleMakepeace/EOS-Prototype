@@ -1,7 +1,7 @@
 # **Argos Electro-Optical System**
 
 ## About The Project
-![System-diagram](./System-diagram.png)
+![System-diagram](System-diagram.png)
 
 
 The project is about the design and built of a EOS prototype that use the following components:
