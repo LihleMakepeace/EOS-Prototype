@@ -1,4 +1,4 @@
-# **Argos Electro-Optical System**
+# **Electro-Optical System (EOS)**
 
 ## About The Project
 

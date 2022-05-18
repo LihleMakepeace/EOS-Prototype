@@ -1,3 +1,8 @@
+/*
+  This is the primary code that is loaded to the main Arduino to control the system
+  The secondary Arduino is loaded with a simmilar code and additional code for the arduinos
+  to communicate with each other
+*/
 #include <Encoder.h>
 Encoder Enc(2,3);
 
@@ -46,6 +51,11 @@ void setup()
 }
 void loop() 
 {
+  /*
+    Based on the input the Arduino receives from the momentary switch 
+    the following code tells the Arduino to either use the Joystick or 
+    the Serial monitor commands
+  */
   command_stetup = digitalRead(7);
   if(command_stetup == HIGH)
   {
@@ -136,9 +146,11 @@ void Read_Serial_Commamd()
 }
 void commandtoIntegers()
 {
-  //This command will split the array of characters on commas
-  //each sub-array of characters will be converted to integers
-  //those integers are stored in an array (commandAsIntegers)
+  /*
+  This command will split the array of characters on commas
+  each sub-array of characters will be converted to integers
+  those integers are stored in an array (commandAsIntegers)
+  */
 
   int j = 0;
   char tempo[commandMaxLength];
